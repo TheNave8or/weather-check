@@ -3,6 +3,8 @@
 #SingleInstance, Force
 SetWorkingDir, %A_ScriptDir%
 IniFile := "settings.ini"
+Toggle := 0
+SetTimer, mousepos, 20
 
 IniRead, Latitude, %IniFile%, Settings, Latitude, YOUR_LATITUDE
 IniRead, Longitude, %IniFile%, Settings, Longitude, YOUR_LONGITUDE
@@ -26,6 +28,16 @@ Gui, Add, Edit, vYPosition w200, %YPosition%
 Gui, Add, Button, Default, Save Settings
 Gui, Show, w400, Weather Widget Setup
 Return
+
+mousepos:
+MouseGetPos, outx, outy
+If (!Toggle)
+   Tooltip, X: %outx%`nY: %outy%
+Else
+   ToolTip
+Return
+
+~F1::Toggle := !Toggle
 
 ButtonSaveSettings:
 Gui, Submit
