@@ -49,6 +49,7 @@ IniWrite, %XPosition%, %IniFile%, Settings, XPosition
 IniWrite, %YPosition%, %IniFile%, Settings, YPosition
 MsgBox, Settings saved to %IniFile%!
 Gui, Destroy
+Run, WeatherCheck.ahk
 ExitApp
 
 GuiClose:
