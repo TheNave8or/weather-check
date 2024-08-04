@@ -57,10 +57,6 @@ YPosition=0
 - **Launching the Widget:** After configuring the settings, run `WeatherCheck.ahk`.
 - **Modifying Settings:** To change settings later, re-run `Setup.ahk`.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a pull request or open an issue for suggestions or bug reports.
