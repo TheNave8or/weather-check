@@ -1,7 +1,4 @@
-﻿
-
-
-SetWorkingDir, %A_ScriptDir%
+﻿SetWorkingDir, %A_ScriptDir%
 #Include, Weather_functions.ahk
 #NoTrayIcon
 ; ;=========================================
