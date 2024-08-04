@@ -1,4 +1,7 @@
-﻿SetWorkingDir, %A_ScriptDir%
+﻿
+
+
+SetWorkingDir, %A_ScriptDir%
 #Include, Weather_functions.ahk
 #NoTrayIcon
 ; ;=========================================
@@ -114,3 +117,8 @@ GuiControl, +c%tomorrowmaxcolor%, tomorrow_max_id
 GuiControl, +c%tomorrowmincolor%, tomorrow_min_id
 Gui, +Owner -Caption -MaximizeBox +AlwaysOnTop +Hwndtexthwnd +LastFound +ToolWindow +E0x20
 Return
+
+!F9::
+Tooltip, Exiting app
+sleep 300
+ExitApp
