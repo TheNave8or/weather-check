@@ -18,7 +18,7 @@ This project is a customizable weather widget for Windows using AutoHotkey (AHK)
    - The settings will be saved in the `settings.ini` file.
 
 3. **Run the Widget:**
-   - Launch the main script `WeatherCheck_GIT.ahk` to start the weather widget.
+   - Launch the main script `WeatherCheck.ahk` to start the weather widget.
 
 ## Setup Script
 
@@ -54,7 +54,7 @@ YPosition=0
 
 ## Usage
 
-- **Launching the Widget:** After configuring the settings, run `WeatherCheck_GIT.ahk`.
+- **Launching the Widget:** After configuring the settings, run `WeatherCheck.ahk`.
 - **Modifying Settings:** To change settings later, re-run `Setup.ahk`.
 
 ## License
