@@ -115,7 +115,4 @@ GuiControl, +c%tomorrowmincolor%, tomorrow_min_id
 Gui, +Owner -Caption -MaximizeBox +AlwaysOnTop +Hwndtexthwnd +LastFound +ToolWindow +E0x20
 Return
 
-!F9::
-Tooltip, Exiting app
-sleep 300
-ExitApp
+!F9::ExitApp
