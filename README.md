@@ -56,6 +56,7 @@ YPosition=0
 
 - **Launching the Widget:** After configuring the settings, run `WeatherCheck.ahk`.
 - **Modifying Settings:** To change settings later, re-run `Setup.ahk`.
+- **Closing the Widget:** Press Alt + F9 to close the widget.
 
 ## Contributing
 
