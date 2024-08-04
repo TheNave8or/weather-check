@@ -1,4 +1,4 @@
-# Weather Widget for AutoHotkey
+# Weather-Check
 
 This project is a customizable weather widget for Windows using AutoHotkey (AHK). It fetches weather data from the [Open-Meteo API](https://open-meteo.com/) and displays it in a compact, always-on-top window on your desktop.
 
