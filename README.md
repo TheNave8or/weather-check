@@ -18,12 +18,13 @@ This project is a customizable weather widget for Windows using AutoHotkey (AHK)
 
 - **For AHK Script Users:**
     - On the first run, setup will be automatically launched.
-    - After that, run the `Setup.ahk` script to set up your initial settings, such as latitude, longitude, screen position, etc.
+    - After that, run the `Setup.ahk` script to set up your different settings, such as latitude, longitude, screen position, etc.
     - The settings will be saved in the `settings.ini` file.
 
 - **For Compiled Version Users:**
-    - On the first run, setup will be automatically launched.
-    - After that, you'll need to open the `settings.ini` file in a text editor and manually enter your configuration details.
+    - Run `WeatherCheck_win64.exe` first to extract `weather-check` folder.
+    - Setup will be automatically launched after you run `WeatherCheck_win64.exe`, and then it will rerun the widget with the updated info.
+    - After that, launch `weather-check\setup.lnk` to reconfigure settings.
 
 ### Run the Widget
 
@@ -38,7 +39,7 @@ The widget displays current weather conditions, including temperature, feels-lik
 
 ## Setup Script
 
-A setup script (`Setup.ahk`) is provided to simplify the configuration process for AHK script users.
+A setup script (`Setup.ahk` for AHK version and `Setup.lnk` for compiled version) is provided to simplify the configuration process for AHK script users.
 
 ### How to Use the Setup Script
 
