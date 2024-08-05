@@ -16,12 +16,14 @@ This project is a customizable weather widget for Windows using AutoHotkey (AHK)
 
 ### Configure Settings
 
-- **For AHK Script Users:** 
-    - Run the `Setup.ahk` script to set up your initial settings, such as latitude, longitude, screen position, etc.
+- **For AHK Script Users:**
+    - On the first run, setup will be automatically launched.
+    - After that, run the `Setup.ahk` script to set up your initial settings, such as latitude, longitude, screen position, etc.
     - The settings will be saved in the `settings.ini` file.
 
 - **For Compiled Version Users:**
-    - Open the `settings.ini` file in a text editor and manually enter your configuration details.
+    - On the first run, setup will be automatically launched.
+    - After that, you'll need to open the `settings.ini` file in a text editor and manually enter your configuration details.
 
 ### Run the Widget
 
