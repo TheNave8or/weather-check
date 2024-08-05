@@ -30,7 +30,7 @@ This project is a customizable weather widget for Windows using AutoHotkey (AHK)
 - 
 ## Widget preview
 
-[Weather Widget Example](https://github.com/TheNave8or/weather-check/blob/main/Example.png)
+![Weather Widget Example](https://github.com/TheNave8or/weather-check/blob/main/Example.png)
 
 The widget displays current weather conditions, including temperature, feels-like temperature, and weather icons representing the current state of the weather. The design is compact and can be positioned anywhere on your screen.
 
