@@ -27,6 +27,12 @@ This project is a customizable weather widget for Windows using AutoHotkey (AHK)
 
 - **AHK Script:** Launch the main script `WeatherCheck.ahk` to start the weather widget.
 - **Compiled Version:** Run `WeatherCheck_win64.exe` to start the weather widget.
+- 
+## Widget preview
+
+[Weather Widget Example](https://github.com/TheNave8or/weather-check/blob/main/Example.png)
+
+The widget displays current weather conditions, including temperature, feels-like temperature, and weather icons representing the current state of the weather. The design is compact and can be positioned anywhere on your screen.
 
 ## Setup Script
 
@@ -44,7 +50,7 @@ A setup script (`Setup.ahk`) is provided to simplify the configuration process f
 
 ## Default Configuration
 
-The default configuration is stored in `settings.ini`:
+The default configuration is not supported, and both versions (compiled and using AHK) will run the first setup. after that, only the AHK version has the setup file. (im working on including the setup file in the compiled version.)
 
 ```ini
 [Settings]
