@@ -1,40 +1,48 @@
 # Weather-Check
 
-This project is a customizable weather widget for Windows using AutoHotkey (AHK). It fetches weather data from the [Open-Meteo API](https://open-meteo.com/) and displays it in a compact, always-on-top window on your desktop.
+This project is a customizable weather widget for Windows using AutoHotkey (AHK). It fetches weather data from the Open-Meteo API and displays it in a compact, always-on-top window on your desktop.
 
 ## Features
 
-- **Weather Data:** Current temperature, feels-like temperature, weather conditions, and more.
-- **Customization:** Change screen position, keep or delete weather logs, and set your geographical coordinates.
-- **Visuals:** Displays weather icons based on current conditions.
+- **Weather Data:** Displays current temperature, feels-like temperature, weather conditions, and more.
+- **Customization:** Allows changes to screen position, the option to keep or delete weather logs, and setting geographical coordinates.
+- **Visuals:** Shows weather icons based on current conditions.
 
 ## Installation
 
-1. **Download and Extract Files:**
-   - Download the repository and extract the files to a folder on your computer.
+### Download and Extract Files
 
-2. **Configure Settings:**
-   - Run the `Setup.ahk` script to set up your initial settings, such as latitude, longitude, screen position, etc.
-   - The settings will be saved in the `settings.ini` file.
+- Download the repository and extract the files to a folder on your computer.
 
-3. **Run the Widget:**
-   - Launch the main script `WeatherCheck.ahk` to start the weather widget.
+### Configure Settings
+
+- **For AHK Script Users:** 
+    - Run the `Setup.ahk` script to set up your initial settings, such as latitude, longitude, screen position, etc.
+    - The settings will be saved in the `settings.ini` file.
+
+- **For Compiled Version Users:**
+    - Open the `settings.ini` file in a text editor and manually enter your configuration details.
+
+### Run the Widget
+
+- **AHK Script:** Launch the main script `WeatherCheck.ahk` to start the weather widget.
+- **Compiled Version:** Run `WeatherCheck.exe` to start the weather widget.
 
 ## Setup Script
 
-A setup script (`Setup.ahk`) is provided to simplify the configuration process. 
+A setup script (`Setup.ahk`) is provided to simplify the configuration process for AHK script users.
 
 ### How to Use the Setup Script
 
 1. **Run the Script:** Double-click `Setup.ahk` to open the configuration GUI.
-2. **Enter Your Settings:** 
-   - **Latitude/Longitude:** Your geographical coordinates.
-   - **Keep Weather Files:** Set to `1` to keep logs, `0` to delete them after use.
-   - **Destination:** Directory for saving weather logs. Leave empty to use the script's directory.
-   - **Screen Position:** Set the X and Y position for the widget on your screen. Press F1 to toggle the mouse position tracker.
+2. **Enter Your Settings:**
+    - **Latitude/Longitude:** Enter your geographical coordinates.
+    - **Keep Weather Files:** Set to `1` to keep logs, `0` to delete them after use.
+    - **Destination:** Choose a directory for saving weather logs. Leave empty to use the script's directory.
+    - **Screen Position:** Set the X and Y position for the widget on your screen. Press F1 to toggle the mouse position tracker.
 3. **Save Settings:** Click "Save Settings" to save your configuration to `settings.ini`.
 
-### Default Configuration
+## Default Configuration
 
 The default configuration is stored in `settings.ini`:
 
@@ -54,9 +62,9 @@ YPosition=0
 
 ## Usage
 
-- **Launching the Widget:** After configuring the settings, run `WeatherCheck.ahk`.
-- **Modifying Settings:** To change settings later, re-run `Setup.ahk`.
-- **Closing the Widget:** Press Alt + F9 to close the widget.
+- **Launching the Widget:** After configuring the settings, run `WeatherCheck.ahk` or `WeatherCheck.exe` for the compiled version.
+- **Modifying Settings:** To change settings later, re-run `Setup.ahk` (for AHK script users) or manually edit `settings.ini` (for compiled version users).
+- **Closing the Widget:** Press `Alt + F9` to close the widget.
 
 ## Contributing
 
