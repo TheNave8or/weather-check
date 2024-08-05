@@ -26,7 +26,7 @@ This project is a customizable weather widget for Windows using AutoHotkey (AHK)
 ### Run the Widget
 
 - **AHK Script:** Launch the main script `WeatherCheck.ahk` to start the weather widget.
-- **Compiled Version:** Run `WeatherCheck.exe` to start the weather widget.
+- **Compiled Version:** Run `WeatherCheck_win64.exe` to start the weather widget.
 
 ## Setup Script
 
@@ -62,7 +62,7 @@ YPosition=0
 
 ## Usage
 
-- **Launching the Widget:** After configuring the settings, run `WeatherCheck.ahk` or `WeatherCheck.exe` for the compiled version.
+- **Launching the Widget:** After configuring the settings, run `WeatherCheck.ahk` or `WeatherCheck_win64.exe` for the compiled version.
 - **Modifying Settings:** To change settings later, re-run `Setup.ahk` (for AHK script users) or manually edit `settings.ini` (for compiled version users).
 - **Closing the Widget:** Press `Alt + F9` to close the widget.
 
